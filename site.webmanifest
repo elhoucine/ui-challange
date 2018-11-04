@@ -1,0 +1,13 @@
+{
+    "name": "McMakler - Ihr Immobilienmakler für Vermietung und Verkauf",
+    "short_name": "McMakler",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Immobilienmakler für Immobilien in ganz Deutschland ✔ Kostenlose Bewertung ✔ Individuelles Vermaktungspaket ✔ TÜV-zertifiziert ✔",
+    "icons": [{
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }]
+  }
