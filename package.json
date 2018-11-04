@@ -4,7 +4,7 @@
   "description": "mcmakler ui challenge",
   "main": "index.js",
   "scripts": {
-    "serve": "parcel index.html"
+    "serve": "parcel index.html preview.html"
   },
   "repository": {
     "type": "git",
