@@ -40,15 +40,14 @@
   <article class="mc-docsDownload" title="Eigentumsdokumente herunterladen">
     <header class="mc-headerInfo">
       <h1 class="mc-headerInfo-title">Vielen Dank für Ihr Interesse</h1>
-      <h3 class="mc-headerInfo-title">an der von uns angebotenen Immobilie</h3>
+      <h3 class="mc-headerInfo-title noMobile">an der von uns angebotenen Immobilie</h3>
       <p class="mc-headerInfo-subTitle">Im Folgenden finden Sie alle verfügbaren</p>
       <p class="mc-headerInfo-subTitle">Unterlagen zum Download</p>
     </header>
 
-    <article>
-
+    <article class="mc-downloader-content">
       <section class="mc-docsDownload-badge">
-        <img style="width:100%;max-width:292px;" class="mc-docsDownload-badge-img" src="./imgs/home.png" />
+        <img class="mc-docsDownload-badge-img" src="./imgs/home.png" />
       </section>
 
       <section class="mc-docsDownload-information">
@@ -78,7 +77,7 @@
       </section>
 
       <section class="mc-docsDownload-cta">
-        <button class="mc-bnt-download">Download expose</button>
+        <button class="mc-bnt-download button button-download">Download expose</button>
       </section>
 
       <section class="mc-downloader">
@@ -97,10 +96,21 @@
           <p class="mc-downloader-imgIcon">
             <img src="./icon.png" />
           </p>
-          <p class="mc-downloader-fileName">myFile</p>
+          <p class="mc-downloader-fileName">
+            <span>myFile</span>
+            <span class="meta">in images folder</span>
+          </p>
           <p class="mc-downloader-folder">images</p>
-          <p class="mc-downloader-view">icon</p>
-          <p class="mc-downloader-download">icon</p>
+          <p class="mc-downloader-view">
+            <button>
+              <img class="svg-icon" src="./imgs/eye.svg" />
+            </button>
+          </p>
+          <p class="mc-downloader-download">
+            <button>
+              <img class="svg-icon" src="./imgs/download.svg" />
+            </button>
+          </p>
         </div>
 
         <div class="mc-downloader-row"></div>

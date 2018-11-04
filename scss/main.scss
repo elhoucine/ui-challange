@@ -1,5 +1,5 @@
-p {
-  color: green;
+html {
+  font-size: 2vmax;
 }
 
 .mc-navigation {
@@ -28,5 +28,152 @@ p {
     .mc-navigation-container-text {
       display: none;
     }
+  }
+}
+
+.mc-docsDownload {
+  .mc-headerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    .mc-headerInfo-title,
+    .mc-headerInfo-subTitle {
+      width: 70%;
+    }
+
+    .mc-headerInfo-title {
+      margin: 0;
+
+      &.noMobile {
+        display: none;
+      }
+    }
+
+    .mc-headerInfo-subTitle {
+      margin: 0;
+      color: gray;
+    }
+  }
+
+  .mc-downloader-content {
+    img.mc-docsDownload-badge-img {
+      min-width: 292px;
+      width: 100%;
+    }
+  }
+
+  .mc-docsDownload-information {
+    .mc-docsDownload-information-table {
+      width: 100%;
+      margin-bottom: 1rem;
+
+      tr td,
+      tr th {
+        display: block;
+        text-align: left;
+      }
+
+      tr th {
+        color: gray;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .mc-downloader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .mc-downloader-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+
+      .mc-downloader-selectCounter {
+        padding: 0 1rem;
+        flex-grow: 1;
+        color: gray;
+      }
+
+      .mc-downloader-select {
+        // input[type="checkbox"] {
+        //   padding: 10px;
+        // }
+      }
+
+      .mc-downloader-imgIcon {
+        display: none;
+        img {
+          max-width: 24px;
+          width: 100%;
+        }
+      }
+
+      .mc-downloader-fileName {
+        flex-grow: 1;
+        min-width: 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 1rem;
+
+        .meta {
+          color: gray;
+          font-size: 0.8rem;
+        }
+      }
+
+      .mc-downloader-folder {
+        display: none;
+        flex-grow: 1;
+      }
+
+      .mc-downloader-view {
+        flex-grow: 0;
+        cursor: pointer;
+
+        button  {
+          background: none;
+          border: none;
+        }
+      }
+
+      .mc-downloader-download {
+        flex-grow: 0;
+        cursor: pointer;
+
+        button  {
+          background: none;
+          border: none;
+        }
+      }
+
+      .svg-icon {
+        fill: gray;
+      }
+    }
+  }
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+
+  &-download {
+    color: white;
+    background: #efaf3a;
+    padding: 1rem;
+    border: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
   }
 }
