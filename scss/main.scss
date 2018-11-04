@@ -2,6 +2,8 @@ html {
   font-size: 2vmax;
 }
 
+$gray: #ababab;
+
 .mc-navigation {
   width: 100%;
   display: flex;
@@ -55,7 +57,7 @@ html {
 
     .mc-headerInfo-subTitle {
       margin: 0;
-      color: gray;
+      color: $gray;
     }
   }
 
@@ -78,7 +80,7 @@ html {
       }
 
       tr th {
-        color: gray;
+        color: $gray;
         text-transform: uppercase;
         font-size: 0.9rem;
       }
@@ -95,11 +97,12 @@ html {
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
+      border-bottom: 1px solid $gray;
 
       .mc-downloader-selectCounter {
         padding: 0 1rem;
         flex-grow: 1;
-        color: gray;
+        color: $gray;
       }
 
       .mc-downloader-select {
@@ -126,7 +129,7 @@ html {
         padding: 0 1rem;
 
         .meta {
-          color: gray;
+          color: $gray;
           font-size: 0.8rem;
         }
       }
@@ -154,10 +157,6 @@ html {
           background: none;
           border: none;
         }
-      }
-
-      .svg-icon {
-        fill: gray;
       }
     }
   }
