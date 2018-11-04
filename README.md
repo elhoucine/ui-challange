@@ -4,4 +4,4 @@ UI code challenge.
 
 ## Description
 
-The idea was to not boostrap or another library, start with mobile first with resuable design in mind.
+The idea was to not use boostrap or another library and use flexbox, start with mobile first with resuable design in mind.
