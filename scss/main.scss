@@ -1,3 +1,24 @@
 p {
-    color: green;
+  color: green;
+}
+
+section.dev-preview {
+  width: 100%;
+}
+
+section.dev-preview .dev-screens-preview {
+  max-width: 1791px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+
+  &.tablet {
+    max-width: 773px;
+    width: 100%;
+  }
+
+  &.mobile {
+    max-width: 322px;
+    width: 100%;
+  }
 }
